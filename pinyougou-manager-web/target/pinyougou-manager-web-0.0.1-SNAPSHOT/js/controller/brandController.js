@@ -1,5 +1,5 @@
  //控制层 
-app.controller('brandController' ,function($scope,$controller   ,brandService){	
+app.controller('brandController' ,function($scope,$controller,brandService){	
 	
 	$controller('baseController',{$scope:$scope});//继承，传递scope
 	

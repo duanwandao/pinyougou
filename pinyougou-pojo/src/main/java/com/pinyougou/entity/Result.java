@@ -9,6 +9,7 @@ public class Result {
  
 	private boolean success;  //是否成功
 	private String message;   //返回信息
+	
 	public Result(boolean success, String message) {
 		super();
 		this.success = success;
